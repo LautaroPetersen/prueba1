@@ -17,7 +17,7 @@ def muestra_nombre(request, nombre):
 def probando_template(request):
 
     # Abrimos el archivo html
-    mi_html = open('./practica1/plantilla/index.html')
+    mi_html = open('./prueba1/plantilla/index.html')
 
     # Creamos el template haciendo uso de la clase Template
     plantilla = Template(mi_html.read())
